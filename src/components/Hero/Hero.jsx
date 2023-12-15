@@ -2,8 +2,8 @@ import React from 'react'
 
 export const Hero = () => {
   return (
-    <div className="hero min-h-screen" style={{backgroundImage: "url(/images/hero.png)"}}>
-      <div className='flex self-start pl-32' style={{alignSelf: 'center'}}>
+    <div className="hero min-h-screen" style={{backgroundImage: "url(/images/hero.png), lightgray 50% / cover no-repeat"}}>
+      <div className='flex justify-self-start pl-4 lg:pl-32'>
         <div className='font-bold font-mono'>
           <h1 className='shadow-xl rounded-full'>
             Masajes de Rehabilitacion

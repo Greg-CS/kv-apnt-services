@@ -12,7 +12,7 @@ export const Navbar = () => {
         <img src='/images/logoSvg.svg'/>
         <a className="btn btn-ghost text-xl">Kaponte Health</a>
       </div>
-      <div className=" hidden lg:flex-none lg:gap-10">
+      <div className="flex-none lg:gap-10">
         <span>servicios</span>
         <span>Sobre nosotros</span>
         <button className='flex border-2 rounded-xl p-3 border-black'>

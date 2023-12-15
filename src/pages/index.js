@@ -12,16 +12,16 @@ export default function Home() {
       </section>
 
       {/* services section */}
-      <section className="min-h-screen flex justify-around items-center bg-[#A2AA84]">
+      <section className="min-h-screen py-10 lg:py-10 grid md:flex justify-center gap-24 items-center bg-[#A2AA84]">
         <Services/>
       </section>
 
       {/* Form section */}
-      <section className="min-h-screen bg-white flex justify-around">
+      {/* <section className="min-h-screen bg-white flex justify-around">
         <div className="">
           <Form/>
         </div>
-      </section>
+      </section> */}
 
 
     </main>
