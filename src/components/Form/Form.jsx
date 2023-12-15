@@ -16,7 +16,7 @@ export const Form = () => {
   };
 
   return (
-    <form className='grid p-10 m-10 text-black border-2 rounded-lg border-black' ref={form} onSubmit={sendEmail}>
+    <form className='grid mt-10 p-10 text-black border-2 rounded-lg border-black' ref={form} onSubmit={sendEmail}>
       <label className=''>Name</label>
       <input className='bg-transparent border-2 border-black rounded-lg' type="text" name="user_name" />
       <label>Email</label>

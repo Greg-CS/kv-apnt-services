@@ -12,7 +12,7 @@ export default function Home() {
       </section>
 
       {/* services section */}
-      <section className="min-h-screen py-10 lg:py-10 grid md:flex justify-center gap-24 items-center bg-[#A2AA84]">
+      <section id="services" className="min-h-screen py-10 lg:py-10 grid md:flex justify-center gap-24 items-center bg-[#A2AA84]">
         <Services/>
       </section>
 
