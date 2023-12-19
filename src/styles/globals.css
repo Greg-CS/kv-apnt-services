@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&family=Comic+Neue:ital,wght@0,300;1,300&family=Montserrat:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -25,3 +27,7 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.glow {
+  text-shadow: 0px 0px 10px rgba(45, 45, 45, 0.5), 0px 0px 20px rgba(25, 25, 25, 0.4), 0px 0px 30px rgba(29, 29, 29, 0.3), 0px 0px 40px rgba(14, 14, 14, 0.2);
+ }

@@ -1,7 +1,7 @@
-import { Layout } from '@/components/Layout/Layout'
-import '@/styles/globals.css'
+import { Layout } from "@/components/Layout/Layout";
+import "@/styles/globals.css";
 import { DefaultSeo } from "next-seo";
-import SEO from "../next-seo.config";
+import SEO from "../../next-seo.config";
 
 export default function App({ Component, pageProps }) {
   return (
@@ -9,5 +9,5 @@ export default function App({ Component, pageProps }) {
       <DefaultSeo {...SEO} />
       <Component {...pageProps} />
     </Layout>
-  )
+  );
 }
